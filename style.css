@@ -72,6 +72,10 @@ nav{
 .off-screen-menu{
     background-color: #0f2228a5;
     backdrop-filter: blur(20px);
+    -o-backdrop-filter:blur(20px);
+    -ms-backdrop-filter:blur(20px);
+    -moz-backdrop-filter:blur(20px);
+    -webkit-backdrop-filter:blur(20px);
     height: 90vh;
     width: 100%;
     position: fixed;
